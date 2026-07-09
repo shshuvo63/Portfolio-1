@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* common style */
+.common-btn{
+    background-color: #FD6E0A ;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white ;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.logo-r{
+    font-weight: bold;
+    
+}
+.logo-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    color: #474747;
+}
+ul li a {
+    text-decoration: none;
+}
+
+/* Hero section style */
+.hero-parent-root{
+    background-color: #fff8f3;
+
+}
+.hero-parent
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hero-left-p-1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+/* About us css */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 8px;
+    padding: 70px;
+    text-align: center; 
+}
+.about-parent p{
+    margin: 20px 0;
+    
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+    background-color: #ecdacd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* what i do section css */
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid orange;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h3{
+    margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
+}
+/* Amazing work section style */
+
+.my-amazing-parent{
+    text-align: center;
+}
+.gallery{
+    margin-top: 20px;
+    display: grid;
+    gap: 12px;
+    grid-auto-rows: 250px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1{
+    grid-area: one;
+
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+} 
+
+/* Footer css */
+
+
+
+
+/* footer{
+    text-align: center; 
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer form{
+    padding: 20px;
+}
+.footer-left p{
+    margin: 10px 0 ;
+}
+footer form input, footer form textarea
+{
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+} */
+ .footer{
+    margin-top: 100px;
+    background: #FFF8F3;
+    border-radius: 16px;
+    padding: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    align-items: start;
+}
+
+.footer h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Social Icons */
+
+.social-icons{
+    display: flex;
+    gap: 18px;
+}
+
+.social-icons a{
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.social-icons a:hover{
+    transform: translateY(-5px);
+    background: #FD6E0A;
+}
+
+.social-icons img{
+    width: 20px;
+    transition: .3s;
+}
+
+.social-icons a:hover img{
+    filter: brightness(0) invert(1);
+}
+
+/* Form */
+
+.footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer input,
+.footer textarea{
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.footer textarea{
+    resize: vertical;
+}
+
+.footer input:focus,
+.footer textarea:focus{
+    outline: 2px solid #FD6E0A;
+    box-shadow: 0 0 10px rgba(253,110,10,.15);
+}
+
+.footer button{
+    width: fit-content;
+    cursor: pointer;
+}
