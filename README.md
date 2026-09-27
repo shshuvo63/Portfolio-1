@@ -282,7 +282,7 @@ You may modify and customize the project according to your requirements.
 
 **GitHub:** [GitHub Profile](https://github.com/shshuvo63)
 
-**LinkedIn:** [LinkedIn Profile](shamsul-haque-shuvo-755439246)
+**LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/shamsul-haque-shuvo-755439246/)
 
 ---
 
