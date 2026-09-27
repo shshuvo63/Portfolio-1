@@ -235,7 +235,7 @@ However, suggestions and improvements are welcome.
 
 | Name       | Role      | Contributions        |
 | ---------- | --------- | -------------------- |
-| Mary Hardy | Developer | Design & Development |
+| Md. Shamsul Haque Shuvo | Developer | Design & Development |
 
 ---
 
@@ -276,13 +276,13 @@ You may modify and customize the project according to your requirements.
 
 ## Contact
 
-**Live URL:** [Live Site](https://your-live-site-url.com/)
 
-**Email:** [your-email@example.com](mailto:your-email@example.com)
 
-**GitHub:** [GitHub Profile](https://github.com/your-username)
+**Email:** [sh.shuvo2363@gmail.com](mailto:sh.shuvo2363@gmail.com)
 
-**LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/your-username)
+**GitHub:** [GitHub Profile](https://github.com/shshuvo63)
+
+**LinkedIn:** [LinkedIn Profile](shamsul-haque-shuvo-755439246)
 
 ---
 
